@@ -27,28 +27,36 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      section {
+        scroll-margin-top: 80px;
+      }
+    </style>
   </head>
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-		      <a class="navbar-brand" href="index.html"><span class="flaticon-pizza-1 mr-1"></span>SHANVI ENTERPRISE<br><small>Wooden Pallets</small></a>
+		      <a class="navbar-brand" href="#home"><img src="imgs/logo.png" alt="Shanvi Enterprise Logo" class="mr-2" style="height: 40px; width: auto;">SHANVI ENTERPRISE<br><small>Wooden Pallets</small></a>
 		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 		        <span class="oi oi-menu"></span> Menu
 		      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-	          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item active"><a href="#home" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+	          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 		  </div>
 	  </nav>
     <!-- END nav -->
 
-    <section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
+    <section id="home" class="home-slider owl-carousel img" style="background-image: url(imgs/manufacturing2.jpg);">
       <div class="slider-item">
       	<div class="overlay"></div>
         <div class="container">
@@ -58,10 +66,10 @@
             	<span class="subheading">SHANVI ENTERPRISE</span>
               <h1 class="mb-4">All Types of Wooden Pallet Packing</h1>
               <p class="mb-4 mb-md-5">Professional wooden pallet manufacturing and packaging solutions for all your industrial needs. Quality craftsmanship, reliable service, and competitive pricing.</p>
-              <p><a href="contact.html" class="btn btn-primary p-3 px-xl-4 py-xl-3">Contact Us</a> <a href="services.html" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Our Services</a></p>
+              <p><a href="#contact" class="btn btn-primary p-3 px-xl-4 py-xl-3">Contact Us</a> <a href="#services" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Our Services</a></p>
             </div>
             <div class="col-md-6 ftco-animate">
-            	<img src="images/bg_1.png" class="img-fluid" alt="">
+            	<img src="imgs/pallet-ele1.png" class="img-fluid" alt="">
             </div>
 
           </div>
@@ -77,17 +85,17 @@
             	<span class="subheading">Wooden Pallets</span>
               <h1 class="mb-4">Pallet Packaging</h1>
               <p class="mb-4 mb-md-5">Industrial Packaging solutions for safe transportation and storage of your products. Tailored to meet your specific requirements.</p>
-              <p><a href="contact.html" class="btn btn-primary p-3 px-xl-4 py-xl-3">Contact Us</a> <a href="services.html" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Our Services</a></p>
+              <p><a href="#contact" class="btn btn-primary p-3 px-xl-4 py-xl-3">Contact Us</a> <a href="#services" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Our Services</a></p>
             </div>
             <div class="col-md-6 ftco-animate">
-            	<img src="images/bg_2.png" class="img-fluid" alt="">
+            	<img src="imgs/pallet-ele2.png" class="img-fluid" alt="">
             </div>
 
           </div>
         </div>
       </div>
 
-      <div class="slider-item" style="background-image: url(images/bg_3.jpg);">
+      <div class="slider-item" style="background-image: url(imgs/manufacturing3.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
@@ -96,7 +104,7 @@
             	<span class="subheading">SHANVI ENTERPRISE</span>
               <h1 class="mb-4">Industrial Packaging Solutions</h1>
               <p class="mb-4 mb-md-5">Your trusted partner in wooden pallet solutions. Excellence in manufacturing with years of experience in the packaging industry.</p>
-              <p><a href="contact.html" class="btn btn-primary p-3 px-xl-4 py-xl-3">Contact Us</a> <a href="services.html" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Our Services</a></p>
+              <p><a href="#contact" class="btn btn-primary p-3 px-xl-4 py-xl-3">Contact Us</a> <a href="#services" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Our Services</a></p>
             </div>
 
           </div>
@@ -143,7 +151,7 @@
     	</div>
     </section>
 
-    <section class="ftco-about d-md-flex">
+    <section id="about" class="ftco-about d-md-flex">
     	<div class="one-half img" style="background-image: url(images/about.jpg);"></div>
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
@@ -157,7 +165,7 @@
     	</div>
     </section>
 
-    <section class="ftco-section ftco-services">
+    <section id="services" class="ftco-section ftco-services">
     	<div class="overlay"></div>
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-3">
@@ -170,7 +178,7 @@
           <div class="col-md-4 ftco-animate">
             <div class="media d-block text-center block-6 services">
               <div class="icon d-flex justify-content-center align-items-center mb-5">
-              	<span class="flaticon-diet"></span>
+              	<span class="icon-cog" style="font-size: 3rem; color: #F96D00;"></span>
               </div>
               <div class="media-body">
                 <h3 class="heading">Custom Pallet Manufacturing</h3>
@@ -181,7 +189,7 @@
           <div class="col-md-4 ftco-animate">
             <div class="media d-block text-center block-6 services">
               <div class="icon d-flex justify-content-center align-items-center mb-5">
-              	<span class="flaticon-bicycle"></span>
+              	<span class="icon-archive" style="font-size: 3rem; color: #F96D00;"></span>
               </div>
               <div class="media-body">
                 <h3 class="heading">Industrial Packaging</h3>
@@ -191,7 +199,9 @@
           </div>
           <div class="col-md-4 ftco-animate">
             <div class="media d-block text-center block-6 services">
-              <div class="icon d-flex justify-content-center align-items-center mb-5"><span class="flaticon-pizza-1"></span></div>
+              <div class="icon d-flex justify-content-center align-items-center mb-5">
+              	<span class="icon-truck" style="font-size: 3rem; color: #F96D00;"></span>
+              </div>
               <div class="media-body">
                 <h3 class="heading">Delivery Services</h3>
                 <p>Reliable delivery services to ensure your pallets reach you on time and in perfect condition.</p>
@@ -219,7 +229,7 @@
     					<div class="text p-4">
     						<h3>Jungly Pallets</h3>
     						<p>High-quality wooden pallets made from jungly wood, known for their durability and strength. Perfect for heavy-duty industrial applications.</p>
-    						<p><a href="contact.html" class="btn btn-white btn-outline-white">Contact Us</a></p>
+    						<p><a href="#contact" class="btn btn-white btn-outline-white">Contact Us</a></p>
     					</div>
     				</div>
     			</div>
@@ -229,7 +239,7 @@
     					<div class="text p-4">
     						<h3>Pine Pallets</h3>
     						<p>Premium pine wood pallets offering excellent quality and reliability. Ideal for various packaging and shipping needs.</p>
-    						<p><a href="contact.html" class="btn btn-white btn-outline-white">Contact Us</a></p>
+    						<p><a href="#contact" class="btn btn-white btn-outline-white">Contact Us</a></p>
     					</div>
     				</div>
     			</div>
@@ -352,7 +362,7 @@
     	-->
     </section>
 
-    <section class="ftco-gallery">
+    <section id="gallery" class="ftco-gallery">
     	<div class="container-wrap">
     		<div class="row no-gutters">
 					<div class="col-md-3 ftco-animate">
@@ -397,8 +407,8 @@
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><span class="flaticon-pizza-1"></span></div>
-		              	<strong class="number" data-number="100000">0</strong>
+		              	<div class="icon"><span class="icon-truck" style="font-size: 3rem;"></span></div>
+		              	<strong class="number" data-number="50000">0</strong>
 		              	<span>Pallets Delivered</span>
 		              </div>
 		            </div>
@@ -406,8 +416,8 @@
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><span class="flaticon-medal"></span></div>
-		              	<strong class="number" data-number="5">0</strong>
+		              	<div class="icon"><span class="icon-calendar" style="font-size: 3rem;"></span></div>
+		              	<strong class="number" data-number="10">0</strong>
 		              	<span>Years Experience</span>
 		              </div>
 		            </div>
@@ -415,8 +425,8 @@
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><span class="flaticon-laugh"></span></div>
-		              	<strong class="number" data-number="500">0</strong>
+		              	<div class="icon"><span class="icon-users" style="font-size: 3rem;"></span></div>
+		              	<strong class="number" data-number="50">0</strong>
 		              	<span>Happy Clients</span>
 		              </div>
 		            </div>
@@ -424,8 +434,8 @@
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><span class="flaticon-chef"></span></div>
-		              	<strong class="number" data-number="150">0</strong>
+		              	<div class="icon"><span class="icon-user" style="font-size: 3rem;"></span></div>
+		              	<strong class="number" data-number="20">0</strong>
 		              	<span>Expert Staff</span>
 		              </div>
 		            </div>
@@ -678,7 +688,7 @@
     -->
 
 		
-		<section class="ftco-appointment">
+		<section id="contact" class="ftco-appointment">
 			<div class="overlay"></div>
     	<div class="container-wrap">
     		<div class="row no-gutters d-md-flex align-items-center">
@@ -687,24 +697,22 @@
     			</div>
 	    		<div class="col-md-6 appointment ftco-animate">
 	    			<h3 class="mb-3">Contact Us</h3>
-	    			<form action="#" class="appointment-form">
-	    				<div class="d-md-flex">
-		    				<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="First Name">
-		    				</div>
-	    				</div>
-	    				<div class="d-me-flex">
-	    					<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="Last Name">
-		    				</div>
-	    				</div>
-	    				<div class="form-group">
-	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
-	            </div>
-	            <div class="form-group">
-	              <input type="submit" value="Send" class="btn btn-primary py-3 px-4">
-	            </div>
-	    			</form>
+	    			<div class="mb-4">
+	    				<h4>Get in touch for your pallet needs</h4>
+	    				<p><strong>Phone Numbers:</strong></p>
+	    				<p>Raju Patel: <a href="tel:+918511115998">+91 85111 15998</a></p>
+	    				<p>Ramkrushna Patel: <a href="tel:+918511116998">+91 85111 16998</a></p>
+	    				<p><strong>Email:</strong> <a href="mailto:shanvientp@gmail.com">shanvientp@gmail.com</a></p>
+	    				<p><strong>Address:</strong><br>
+	    				309/ 3rd Floor, Wing-A, Ishan Ceramic Zone,<br>
+	    				OPP. Shakti Chembar-2 Lalpar, Morbi-2<br>
+	    				Gujarat - 363642</p>
+	    			</div>
+	    			<div class="text-center mt-4">
+	    				<a href="mailto:shanvientp@gmail.com?subject=Pallet Inquiry&body=Hello,%0D%0A%0D%0AI am interested in your pallet services. Please contact me with more information.%0D%0A%0D%0AThank you!" class="btn btn-primary btn-lg py-3 px-5" style="font-size: 1.2rem;">
+	    					<span class="icon-envelope mr-2"></span>Send Us an Email
+	    				</a>
+	    			</div>
 	    		</div>    			
     		</div>
     	</div>
@@ -735,10 +743,10 @@
              <div class="ftco-footer-widget mb-4 ml-md-4">
               <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
-                <li><a href="services.html" class="py-2 d-block">Custom Pallet Manufacturing</a></li>
-                <li><a href="services.html" class="py-2 d-block">Industrial Packaging</a></li>
-                <li><a href="services.html" class="py-2 d-block">Delivery Services</a></li>
-                <li><a href="services.html" class="py-2 d-block">Quality Assurance</a></li>
+                <li><a href="#services" class="py-2 d-block">Custom Pallet Manufacturing</a></li>
+                <li><a href="#services" class="py-2 d-block">Industrial Packaging</a></li>
+                <li><a href="#services" class="py-2 d-block">Delivery Services</a></li>
+                <li><a href="#services" class="py-2 d-block">Quality Assurance</a></li>
               </ul>
             </div>
           </div>
@@ -793,6 +801,47 @@
   <script src="js/google-map.js"></script>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
+  
+  <script>
+    // Smooth scroll and active navigation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+          // Update active nav item
+          document.querySelectorAll('.nav-link').forEach(link => {
+            link.parentElement.classList.remove('active');
+          });
+          this.parentElement.classList.add('active');
+        }
+      });
+    });
+
+    // Update active nav on scroll
+    window.addEventListener('scroll', function() {
+      let current = '';
+      const sections = document.querySelectorAll('section[id]');
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= (sectionTop - 200)) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.parentElement.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.parentElement.classList.add('active');
+        }
+      });
+    });
+  </script>
     
   </body>
 </html>
