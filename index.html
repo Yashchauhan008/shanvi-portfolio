@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <style>
       html {
         scroll-behavior: smooth;
@@ -155,7 +156,7 @@
     	<div class="one-half img" style="background-image: url(imgs/about1.png);"></div>
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
-          <h2 class="mb-4">About <span class="flaticon-pizza">Shanvi Enterprise</span></h2>
+          <h2 class="mb-4">About <img src="imgs/logo.png" alt="Shanvi Enterprise Logo" class="mr-2" style="height: 40px; width: auto;">Shanvi Enterprise</span></h2>
         </div>
         <div>
   				<p><strong>Your trusted partner in wooden pallet solutions</strong></p>
@@ -446,184 +447,29 @@
       </div>
     </section>
 
-    <section class="ftco-menu">
-    	<div class="container-fluid">
-    		<div class="row d-md-flex">
-	    		<div class="col-lg-4 ftco-animate img f-menu-img mb-5 mb-md-0" style="background-image: url(images/about.jpg);">
-	    		</div>
-	    		<div class="col-lg-8 ftco-animate p-md-5">
-		    		<div class="row">
-		          <div class="col-md-12 nav-link-wrap mb-5">
-		            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-		              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Standard Pallets</a>
-
-		              <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Custom Pallets</a>
-
-		              <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Export Pallets</a>
-
-		              <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Eco-Friendly</a>
-		            </div>
-		          </div>
-		          <div class="col-md-12 d-flex align-items-center">
-		            
-		            <div class="tab-content ftco-animate" id="v-pills-tabContent">
-
-		              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
-		              	<div class="row">
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-1.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">GMA Pallet</a></h3>
-		              					<p>48x40 inch standard pallet for general warehousing and distribution needs.</p>
-		              					<p class="price"><span>$12.50</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-2.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">GMA Pallet</a></h3>
-		              					<p>48x40 inch standard pallet for general warehousing and distribution needs.</p>
-		              					<p class="price"><span>$12.50</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-3.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">GMA Pallet</a></h3>
-		              					<p>48x40 inch standard pallet for general warehousing and distribution needs.</p>
-		              					<p class="price"><span>$12.50</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              	</div>
-		              </div>
-
-		              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
-		                <div class="row">
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-1.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Custom Size Pallet</a></h3>
-		              					<p>Made to your exact specifications and requirements.</p>
-		              					<p class="price"><span>Quote</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-2.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Specialty Pallet</a></h3>
-		              					<p>Designed for unique product requirements and applications.</p>
-		              					<p class="price"><span>Quote</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-3.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">Automated Pallet</a></h3>
-		              					<p>Optimized for automated handling systems and robotics.</p>
-		              					<p class="price"><span>Quote</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              	</div>
-		              </div>
-
-		              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
-		                <div class="row">
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-1.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">GMA Pallet</a></h3>
-		              					<p>48x40 inch standard pallet for general warehousing and distribution needs.</p>
-		              					<p class="price"><span>$12.50</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-2.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">GMA Pallet</a></h3>
-		              					<p>48x40 inch standard pallet for general warehousing and distribution needs.</p>
-		              					<p class="price"><span>$12.50</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-3.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">GMA Pallet</a></h3>
-		              					<p>48x40 inch standard pallet for general warehousing and distribution needs.</p>
-		              					<p class="price"><span>$12.50</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              	</div>
-		              </div>
-
-		              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
-		                <div class="row">
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-1.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">GMA Pallet</a></h3>
-		              					<p>48x40 inch standard pallet for general warehousing and distribution needs.</p>
-		              					<p class="price"><span>$12.50</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-2.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">GMA Pallet</a></h3>
-		              					<p>48x40 inch standard pallet for general warehousing and distribution needs.</p>
-		              					<p class="price"><span>$12.50</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              		<div class="col-md-4 text-center">
-		              			<div class="menu-wrap">
-		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-3.jpg);"></a>
-		              				<div class="text">
-		              					<h3><a href="#">GMA Pallet</a></h3>
-		              					<p>48x40 inch standard pallet for general warehousing and distribution needs.</p>
-		              					<p class="price"><span>$12.50</span></p>
-		              					<p><a href="#" class="btn btn-white btn-outline-white">Get Quote</a></p>
-		              				</div>
-		              			</div>
-		              		</div>
-		              	</div>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		      </div>
-		    </div>
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+    			<div class="col-md-7 heading-section text-center ftco-animate">
+    				<span class="subheading">Our Manufacturing Process</span>
+    				<h2 class="mb-4">See How We Make Quality Pallets</h2>
+    				<p>Watch our manufacturing process and see the craftsmanship that goes into every Shanvi pallet.</p>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<div class="col-md-12 ftco-animate">
+    				<div class="video-wrapper" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+    					<iframe 
+    						style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    						src="https://www.youtube.com/embed/QSdDDY9fL1A" 
+    						title="Shanvi Enterprise - Pallet Manufacturing Process" 
+    						frameborder="0" 
+    						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    						allowfullscreen>
+    					</iframe>
+    				</div>
+    			</div>
+    		</div>
     	</div>
     </section>
 
@@ -693,7 +539,7 @@
     	<div class="container-wrap">
     		<div class="row no-gutters d-md-flex align-items-center">
     			<div class="col-md-6 d-flex align-self-stretch">
-    				<div id="map"></div>
+    				<div id="map" style="width: 100%; height: 100%; min-height: 500px;"></div>
     			</div>
 	    		<div class="col-md-6 appointment ftco-animate">
 	    			<h3 class="mb-3">Contact Us</h3>
@@ -797,7 +643,7 @@
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="js/google-map.js"></script>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>

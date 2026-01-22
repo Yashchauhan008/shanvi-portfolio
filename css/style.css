@@ -7778,8 +7778,26 @@ h1, h2, h3, h4, h5,
         height: 300px; } }
 
 .ftco-services {
-  background: url(../images/food.png) repeat;
-  color: #5c3d03; }
+  background: url(../imgs/palletsbg.png) repeat;
+  color: #5c3d03; 
+  background-repeat: repeat;
+  background-size: 400px 400px;
+  position: relative;
+}
+  .ftco-services::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(1px);
+    z-index: 0;
+  }
+  .ftco-services > * {
+    position: relative;
+    z-index: 1;
+  }
   .ftco-services .overlay {
     position: absolute;
     top: 0;
